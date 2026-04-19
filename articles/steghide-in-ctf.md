@@ -31,3 +31,4 @@ steghideはマルウェアがC2通信を隠すために使われた事例があ�
 Hidden in Plainsightの完全なソルブフロー（実コマンド出力・二重base64デコード・フラグ取得まで）とStegseekへの切り替え判断を含む英語記事はこちら：
 
 → [steghide in CTF: Extract Flags](https://alsavaudomila.com/steghide-in-ctf-how-to-hide-and-extract-data-from-files/)
+
