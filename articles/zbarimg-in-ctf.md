@@ -48,4 +48,4 @@ QRコードを使ったフィッシング（クイッシング）の調査でも
 
 各失敗パターンの対処コマンド・診断フロー表・pyzbar/OpenCVとの比較表を含む英語記事はこちら：
 
-→ [zbarimg in CTF: QR Decoding Guide](https://alsavaudomila.com/zbarimg-in-ctf-qr-barcode-decoding-techniques-and-common-challenge-patterns/)
+→ [zbarimg in CTF: QR/Barcode Decoding Guide](https://alsavaudomila.com/zbarimg-in-ctf-qr-barcode-decoding-techniques-and-common-challenge-patterns/)
