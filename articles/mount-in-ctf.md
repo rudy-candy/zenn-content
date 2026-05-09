@@ -3,7 +3,7 @@ title: "CTFで使うmount — ディスクイメージをファイルシステ�
 emoji: "💽"
 type: "tech"
 topics: ["ctf", "forensics", "linux", "disk", "security"]
-published: true
+published: false
 ---
 
 mountはディスクイメージをLinuxのファイルシステムとしてアクセス可能にするコマンドです。fdiskでパーティション構造を確認した後、ファイルを直接閲覧するためのステップです。

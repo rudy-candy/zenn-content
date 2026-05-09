@@ -3,7 +3,7 @@ title: "CTFで使うpdfdumper — PDFは「見えているもの」がすべて�
 emoji: "📄"
 type: "tech"
 topics: ["ctf", "forensics", "pdf", "linux", "security"]
-published: true
+published: false
 ---
 
 PDFファイルはテキストや画像を表示するだけでなく、JavaScript・埋め込みファイル・隠しストリームなど多くのオブジェクトを含めることができます。pdfdumperはそれらを一覧・抽出するためのツールです。
