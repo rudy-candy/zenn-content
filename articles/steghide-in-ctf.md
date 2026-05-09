@@ -6,7 +6,16 @@ topics: ["ctf", "picoctf", "forensics", "steganography", "security"]
 published: true
 ---
 
-「パスフレーズが分からない」と詰まっているとき、答えはすでに手元にあることがある。picoCTF の Hidden in Plainsight でそれを学んだ。
+steghideには知らないと絶対にハマる罠がある。「パスフレーズが分からない」と詰まっているとき、答えはすでに手元にあることがある。picoCTF の Hidden in Plainsight でそれを学んだ。
+
+## 同じエラーが2つの意味を持つ
+
+steghideの最大の落とし穴は、エラーメッセージが状況を教えてくれないことだ。
+
+- 間違ったパスフレーズを入れたとき → `steghide: could not extract any data with that passphrase!`
+- データが何も埋め込まれていないファイルに使ったとき → `steghide: could not extract any data with that passphrase!`
+
+全く同じメッセージが出る。「ツールが壊れているのか、パスフレーズが違うのか、そもそも何もないのか」を判断できない。正解は `steghide info` でまず確認すること。容量と埋め込みファイルの有無を教えてくれる。
 
 ## パスフレーズを探す前に file を読む
 
