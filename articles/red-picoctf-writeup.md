@@ -1,32 +1,76 @@
 ---
-title: "【picoCTF】RED — 画像の見えない色チャンネルにデータを隠す手法"
+title: "【picoCTF】RED — メタデータの詩がアクロスティックで「CHECKLSB」と言っていた"
 emoji: "🔴"
 type: "tech"
 topics: ["ctf", "picoctf", "forensics", "steganography", "security"]
 published: true
 ---
 
-ステガノグラフィ（データの隠蔽）の問題です。画像を目で見ても何も分かりませんが、特定の色チャンネルを抽出するとフラグが現れます。「見えているのに見えていない」という感覚を体験できる問題です。
+真っ赤な128×128のPNG画像。目で見ても何も分からない。でも答えはちゃんと「そこ」に書いてあった。
 
-## 問題の概要
+## やった失敗
 
-PNG画像が渡されます。一見普通の画像ですが、フラグが隠されています。
+最初にsteghideを試した。「PNG画像にフラグが隠されている」→「ステガノグラフィならsteghideでしょ」という反射的な判断。
 
-## この問題が教えてくれること
+結果：steghideはJPEGとBMP専用なのでエラーで終了。
 
-デジタル画像はRGB（赤・緑・青）の3チャンネルで構成されています。ある1つのチャンネルだけを抽出して見ると、通常の表示では見えなかったデータが浮かび上がることがあります。
+次にbinwalkを試した。zlibストリームが見つかった（これはPNGの通常の圧縮データ）。「なんか見つかった！」と思ったが、それはただの画像データだった。
 
-zstegはこうした画像ステガノグラフィを解析するためのツールです。LSB（最下位ビット）への埋め込みやチャンネル分離など、複数の手法を自動で試してくれます。
+2つのツール、2つの失敗、5分の無駄。
 
-## セキュリティ的な意味
+## 本当の答えはexiftoolにあった
 
-ステガノグラフィはマルウェアがC2（コマンド＆コントロール）サーバーと通信を隠す手段として実際に使われています。画像ファイルや音声ファイルに命令を埋め込んで、通常のトラフィックに偽装する手法です。
+`exiftool red.png` を実行すると、予想外のフィールドが出てきた：
 
-「普通に見える画像が実はデータを運んでいる」という発想は、インシデント対応やマルウェア解析で役立ちます。
+```
+Poem : Crimson heart, vibrant and bold,
+       Hearts flutter at your sight.
+       Evenings glow softly red,
+       Cherries burst with sweet life.
+       Kisses linger with your warmth.
+       Love deep as merlot.
+       Scarlet leaves falling softly,
+       Bold in every stroke.
+```
+
+カスタムメタデータフィールドに詩が埋め込まれていた。各行の最初の文字を並べると……
+
+**C-H-E-C-K-L-S-B = "CHECKLSB"**
+
+アクロスティック（行の頭文字で作るメッセージ）。「LSBを確認しろ」という直接的な指示が詩に隠されていた。
+
+## zstegのインストールで詰まる
+
+LSB解析の定番ツール `zsteg` はaptに入っていないのでRubyGem経由でインストールする。ただし依存ライブラリを先に入れないと2段階のエラーが出る：
+
+1. `ruby-dev` なし → `mkmf.rb can't find header files for ruby`
+2. `libmagickwand-dev` なし → `No such file or directory - MagickWand.h`
+
+正解の順番：
+```
+sudo apt install ruby ruby-dev imagemagick libmagickwand-dev
+sudo gem install zsteg
+```
+
+## zstegの出力を読む
+
+`zsteg red.png` を実行すると複数行出てくる。「OpenPGP Public Key」「OpenPGP Secret Key」という表示があって最初驚くが、これは偽陽性。単色に近い画像のビットパターンが偶然そのmagic bytesに一致しているだけ。
+
+本物はこの行：
+```
+b1,rgba,lsb,xy .. text: "cGljb0NURntyM2RfMXNf..."
+```
+
+Base64の文字列が出てくる。デコードするとフラグ。
+
+## この問題から学んだこと
+
+「ツール選択より先にメタデータを確認する」という習慣ができた。exiftoolは1コマンドで全メタデータを出してくれる。steghideやbinwalkより先に確認すべきだった。
+
+また、「赤い詩は装飾ではなく道具だった」という発想の転換。チャレンジ名が "RED" で、詩も赤いテーマ——そのテーマの統一感が答えへの注意を逸らす罠になっていた。
 
 ## 詳細記事
 
-zstegのインストールからチャンネル抽出の実行までを含む英語記事はこちら：
+exiftool実出力・zsteg依存エラーのコマンド出力・LSBの容量計算・偽陽性の技術的解説を含む英語記事：
 
 → [RED picoCTF Writeup](https://alsavaudomila.com/red-picoctf-writeup/)
-
