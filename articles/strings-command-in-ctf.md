@@ -10,6 +10,28 @@ picoCTFの最初の問題で `strings` を実行したら、フラグがその�
 
 `strings` は万能ツールではない。「何が出るか」より「何が出ないか」を知っておく方が競技では役に立つ。
 
+## 最初にstringsを使うべき理由
+
+picoCTFの [DISKO 1](https://alsavaudomila.com/disko-1-picoctf-writeup/) というチャレンジで、生のディスクイメージをもらった。マウント、binwalk、Sleuth Kitを1時間試した後、ようやく試したのがこれ：
+
+```bash
+strings disko-1.dd | grep "pico"
+picoCTF{1t5_ju5t_4_5tr1n9_be6031da}
+```
+
+1秒で終わった。フラグはファイルシステムの外、生のディスクセクタに直接書かれていた。マウント系のツールはファイルシステムを読む仕組みなので、そもそもアプローチが間違っていた。
+
+[Corrupted File](https://alsavaudomila.com/corrupted-file-picoctf-writeup/) でも同じだった。壊れたファイルを開いた最初の10秒でこれを走らせたら：
+
+```bash
+strings corrupted_file | head -20
+JFIF
+Exif
+picoCTF{r3st0r1ng_th3_by73s_b67c1558}
+```
+
+フラグが出てきた。おまけにJFIF・Exifマーカーで「これはJPEGで、ヘッダが壊れている」という診断まで得られた。
+
 ## すぐ試すべき場面
 
 未知のバイナリ・メモリダンプ・拡張子不明のファイルをもらったら、最初の60秒でこれを走らせる：
@@ -42,11 +64,17 @@ strings -n 8 challenge.bin | grep -i "flag\|ctf\|key\|pass"
 - フラグがXOR・AESで暗号化されている → `strings` では見えない（binwalkやGhidraへ）
 - バイナリにファイルが埋め込まれている → `strings` は `PK` の文字列は出るが抽出は `binwalk`
 - LSBステガノグラフィ → `zsteg`
+- Windowsバイナリで空振り → `strings -e l` を試す
 
 `strings` が空振りしても「フラグがない」という意味ではない。入口が違うだけ。
 
 ## 詳細記事
 
-実際のコマンド出力・比較表・ワークフローを含む英語記事はこちら：
+実際のコマンド出力・オプション比較表・ワークフローを含む英語記事はこちら：
 
 → [strings Command in CTF: Hidden Data Guide](https://alsavaudomila.com/strings-command-in-ctf-how-to-extract-hidden-data-from-binaries/)
+
+実際にstringsが活躍したwriteupはこちら：
+
+- [DISKO 1 picoCTF Writeup](https://alsavaudomila.com/disko-1-picoctf-writeup/) — 生ディスクセクタに隠されたフラグ
+- [Corrupted File picoCTF Writeup](https://alsavaudomila.com/corrupted-file-picoctf-writeup/) — 壊れたファイルからフラグを取り出す
