@@ -6,7 +6,7 @@ topics: ["ctf", "forensics", "linux", "qrcode", "security"]
 published: true
 ---
 
-zbarimgはターミナルからQRコード・バーコードを画像ファイルから読み取るコマンドです。CTFのForensicsやGeneral Skillsで頻出のツールですが、「0 barcodes detected」と返ってくることも多く、そこからの対処が重要です。
+zbarimgはターミナルからQRコード・バーコードを画像ファイルから読み取るコマンドです。CTFのForensicsやGeneral Skillsで頻出のツールですが、「0 barcodes detected」と返ってくることも多く、そこからの対処法を知っておくことが重要です。
 
 ## pyzbarとの違いを知っておく
 
