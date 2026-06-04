@@ -1,0 +1,17 @@
+title: "Webアプリ脆弱性診断 実践入門"
+summary: "セキュリティエンジニアが年間約30〜40件の実診断から得た経験をもとに書いた、Webアプリ脆弱性診断の実務ガイド。Burp Suiteの使い方から、SQLインジェクション・XSS・セッション管理の問題などの検査手順、報告書の書き方まで、現場でどうやっているかを中心に解説します。"
+topics: ["security", "web", "pentest", "burpsuite", "vulnerability"]
+published: false
+price: 1500
+chapters:
+  - chapter01
+  - chapter02
+  - chapter03
+  - chapter04
+  - chapter05
+  - chapter06
+  - chapter07
+  - chapter08
+  - chapter09
+  - chapter10
+  - chapter11
