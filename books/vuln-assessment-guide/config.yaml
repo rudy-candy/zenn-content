@@ -4,6 +4,7 @@ topics: ["security", "web", "pentest", "burpsuite", "vulnerability"]
 published: false
 price: 1500
 chapters:
+  - chapter00
   - chapter01
   - chapter02
   - chapter03

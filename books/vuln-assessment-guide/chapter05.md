@@ -165,7 +165,7 @@ Content-Type: application/json; charset=utf-8
 
 ---
 
-## 5-6 対策
+## 5-7 対策
 
 SQLインジェクションの根本対策は**プリペアドステートメント（バインド機構）の使用**だ。
 
