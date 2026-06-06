@@ -3,7 +3,7 @@ title: "【picoCTF】Crack the Gate 1 — 問題名に釣られてブルート�
 emoji: "🔐"
 type: "tech"
 topics: ["ctf", "picoctf", "cylabacademy", "web", "security"]
-published: true
+published: false
 ---
 
 Web Exploitationの問題です。「Crack the Gate（ゲートを突破せよ）」という名前を見た瞬間、パスワードをクラックする問題だと思い込みました。これが罠でした。

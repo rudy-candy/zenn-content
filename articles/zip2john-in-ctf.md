@@ -3,7 +3,7 @@ title: "CTFで使うzip2john — パスワード付きZIPを解析する前に�
 emoji: "🗜️"
 type: "tech"
 topics: ["ctf", "forensics", "zip", "linux", "security"]
-published: true
+published: false
 ---
 
 パスワード付きZIPが渡されたとき、すぐにパスワードクラックを試みる前に確認すべきことがあります。暗号化方式によって、クラックできるかどうかが決まります。

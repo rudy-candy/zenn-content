@@ -3,7 +3,7 @@ title: "CTFで使うzbarimg — QRコードが読めないときの診断フロ�
 emoji: "📷"
 type: "tech"
 topics: ["ctf", "forensics", "linux", "qrcode", "security"]
-published: true
+published: false
 ---
 
 zbarimgはターミナルからQRコード・バーコードを画像ファイルから読み取るコマンドです。CTFのForensicsやGeneral Skillsで頻出のツールですが、「0 barcodes detected」と返ってくることも多く、そこからの対処法を知っておくことが重要です。

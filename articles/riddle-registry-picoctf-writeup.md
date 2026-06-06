@@ -3,7 +3,7 @@ title: "【picoCTF】Riddle Registry — 黒塗りPDFの答えは黒塗りの下
 emoji: "📄"
 type: "tech"
 topics: ["ctf", "picoctf", "forensics", "pdf", "security"]
-published: true
+published: false
 ---
 
 黒塗りされた機密文書PDF。直感的に「黒塗りを外せばフラグが出てくる」と思いました。その直感は間違いでした。

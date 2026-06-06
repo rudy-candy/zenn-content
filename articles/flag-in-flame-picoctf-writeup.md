@@ -3,7 +3,7 @@ title: "【picoCTF】Flag in Flame — ログファイルと名乗った偽物�
 emoji: "🔥"
 type: "tech"
 topics: ["ctf", "picoctf", "forensics", "base64", "security"]
-published: true
+published: false
 ---
 
 `logs.txt` というファイルを渡されました。名前の通りサーバーログかと思ってgrepし始めて、数分後に気づきました。「これログじゃない」。

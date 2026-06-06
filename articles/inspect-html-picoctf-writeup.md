@@ -3,7 +3,7 @@ title: "【picoCTF】Inspect HTML — 「見えない」と「ない」は別物
 emoji: "🔍"
 type: "tech"
 topics: ["ctf", "picoctf", "cylabacademy", "web", "security"]
-published: true
+published: false
 ---
 
 ページを開いてクリックしても何もない。でもフラグはそこにあった——ブラウザが表示しないだけで。

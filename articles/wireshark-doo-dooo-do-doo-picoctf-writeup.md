@@ -3,7 +3,7 @@ title: "【picoCTF】Wireshark doo dooo do doo — 直接検索が失敗した�
 emoji: "🦈"
 type: "tech"
 topics: ["ctf", "picoctf", "cylabacademy", "wireshark", "forensics"]
-published: true
+published: false
 ---
 
 pcapファイルを渡されて「フラグを見つけろ」という問題です。最初の操作で詰まりました——Ctrl+Fで「picoCTF」を検索したら、ヒットしなかった。

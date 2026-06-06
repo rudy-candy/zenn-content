@@ -3,7 +3,7 @@ title: "【picoCTF】Log Hunt — grepの罠は「重複ログエントリ」だ
 emoji: "🔍"
 type: "tech"
 topics: ["ctf", "picoctf", "forensics", "linux", "security"]
-published: true
+published: false
 ---
 
 `server.log` というログファイルにフラグが分割して隠されています。grepで抽出したら、同じフラグフラグメントが複数回出てくる——これを罠だと気づけるかどうかが問題の核心です。
