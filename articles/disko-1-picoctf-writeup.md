@@ -54,6 +54,6 @@ strings image.dd | grep "picoCTF{"
 
 ## 詳細記事
 
-実際のコマンド出力・FAT16 のセクタ構造・xxd でオフセットを確認する方法まで書いた英語記事はこちら：
+手順とコマンド出力を全部書いた日本語の完全版は、noteに置いています（有料）。
 
-→ [DISKO 1 picoCTF Writeup](https://alsavaudomila.com/disko-1-picoctf-writeup/)
+→ [picoCTF Forensics「DISKO 1」writeup 日本語解説（note・¥200）](https://note.com/rudy_candy/n/ne3f6251078b2)

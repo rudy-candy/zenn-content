@@ -32,6 +32,6 @@ PNGファイルが渡されますが、画像として開けません。
 
 ## 詳細記事
 
-実際のバイト列・修復手順・コマンド出力を含む英語記事はこちら：
+手順とコマンド出力を全部書いた日本語の完全版は、noteに置いています（有料）。
 
-→ [Corrupted File picoCTF Writeup](https://alsavaudomila.com/corrupted-file-picoctf-writeup/)
+→ [picoCTF「Corrupted File」 writeup 日本語解説（note・¥200）](https://note.com/rudy_candy/n/n615f361d156a)

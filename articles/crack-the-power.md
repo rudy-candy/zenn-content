@@ -48,6 +48,6 @@ paddingなしのRSA小指数攻撃には、この直接べき根以外にもバ�
 
 ## 詳細記事
 
-桁数診断・末尾桁パターン分析・Håstadブロードキャスト攻撃の詳細を含む英語記事はこちら：
+手順とコマンド出力を全部書いた日本語の完全版は、noteに置いています（有料）。
 
-→ [Crack the Power picoCTF Writeup](https://alsavaudomila.com/crack-the-power/)
+→ [低指数RSA攻撃の成立条件を構造的に理解する — picoCTF "Crack the Power"（note・¥500）](https://note.com/rudy_candy/n/n64422c5c0d57)

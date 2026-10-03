@@ -33,6 +33,6 @@ PDFはフィッシングやマルウェア配布でよく使われるファイ�
 
 ## 詳細記事
 
-pdfdumperのオブジェクト一覧・ストリーム抽出の手順を含む英語記事はこちら：
+手順とコマンド出力を全部書いた日本語の完全版は、noteに置いています（有料）。
 
-→ [pdfdumper in CTF](https://alsavaudomila.com/pdfdumper-in-ctf-extracting-pdf-content-and-common-challenge-patterns/)
+→ [「まず全部dumpする」判断は正しかったのか：pdfdumper実戦記録（note・¥500）](https://note.com/rudy_candy/n/n3fec982c689b)

@@ -43,6 +43,6 @@ SoXは速度変換・ピッチ変換・チャンネル抽出・無音区間カ�
 
 ## 詳細記事
 
-DTMFとモールスの判別方法・実コマンド出力・ツール比較表を含む英語記事はこちら：
+手順とコマンド出力を全部書いた日本語の完全版は、noteに置いています（有料）。
 
-→ [SoX in CTF](https://alsavaudomila.com/sox-in-ctf-how-to-analyze-and-manipulate-audio-files/)
+→ [SoXで音声CTFを読む：解析ツール選択の思考プロセス（note・¥500）](https://note.com/rudy_candy/n/n26fd6817c238)

@@ -75,6 +75,6 @@ Base64の文字列が出てくる。デコードするとフラグ。
 
 ## 詳細記事
 
-exiftool実出力・zsteg依存エラーのコマンド出力・LSBの容量計算・偽陽性の技術的解説を含む英語記事：
+手順とコマンド出力を全部書いた日本語の完全版は、noteに置いています（有料）。
 
-→ [RED picoCTF Writeup](https://alsavaudomila.com/red-picoctf-writeup/)
+→ [picoCTF「RED」writeup 日本語解説（note・¥200）](https://note.com/rudy_candy/n/n0a05659641ae)

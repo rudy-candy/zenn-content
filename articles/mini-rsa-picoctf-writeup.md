@@ -36,7 +36,7 @@ Pythonの `**` 演算子や `math.cbrt()` で3乗根を計算しようとする�
 
 ## 詳細記事
 
-失敗したコード・k-iterationの仕組み・実際の出力を含む英語記事はこちら：
+手順とコマンド出力を全部書いた日本語の完全版は、noteに置いています（有料）。
 
-→ [Mini RSA picoCTF Writeup](https://alsavaudomila.com/mini-rsa-picoctf-writeup/)
+→ [picoCTF「Mini RSA」 writeup 日本語解説（note・¥200）](https://note.com/rudy_candy/n/n6f30f90fb9ee)
 

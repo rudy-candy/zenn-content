@@ -50,6 +50,6 @@ Wiresharkの「Follow TCP Stream」でペイロードを結合してデコード
 
 ## 詳細記事
 
-実pcap解析コード・Pythonスクリプト・Follow TCP Streamがなぜ誤解を招くかの解説を含む英語記事はこちら：
+手順とコマンド出力を全部書いた日本語の完全版は、noteに置いています（有料）。
 
-→ [Ph4nt0m 1ntrud3r picoCTF Writeup](https://alsavaudomila.com/ph4nt0m-1ntrud3r-picoctf-writeup/)
+→ [picoCTF「Ph4nt0m 1ntrud3r」 writeup 日本語解説（note・¥200）](https://note.com/rudy_candy/n/nbe265a075a0b)

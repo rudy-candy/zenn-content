@@ -52,6 +52,6 @@ Web Exploitationの入門として位置づけられる問題です。「ソー�
 
 ## 詳細記事
 
-調査した場所・フラグの取り出し方・grep パターン・BurpSuiteの使い分け解説を含む英語記事はこちら：
+手順とコマンド出力を全部書いた日本語の完全版は、noteに置いています（有料）。
 
-→ [Includes picoCTF Writeup](https://alsavaudomila.com/includes-picoctf-writeup/)
+→ [picoCTF「Includes」 writeup 日本語解説（note・¥200）](https://note.com/rudy_candy/n/n2a1b86455a4e)

@@ -37,6 +37,6 @@ zip2john → ハッシュを取り出す
 
 ## 詳細記事
 
-暗号化方式の確認方法・ハッシュ取得・johnとhashcatの使い分けを含む英語記事はこちら：
+手順とコマンド出力を全部書いた日本語の完全版は、noteに置いています（有料）。
 
-→ [zip2john in CTF](https://alsavaudomila.com/zip2john-in-ctf-extracting-zip-passwords-and-common-challenge-patterns/)
+→ [ZIP暗号を解析するときの思考整理 ― zip2johnを選ぶ基準と捨てる勇気（note・¥500）](https://note.com/rudy_candy/n/nd610a9ed1f9b)

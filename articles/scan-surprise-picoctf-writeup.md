@@ -51,7 +51,7 @@ QRコードを使ったフィッシング（「クイッシング」）は、メ
 
 ## 詳細記事
 
-解法の詳細・実際のコマンド出力・zbarimgが0を返したときの全パターン対処法を含む英語記事はこちら：
+手順とコマンド出力を全部書いた日本語の完全版は、noteに置いています（有料）。
 
-→ [Scan Surprise picoCTF Writeup](https://alsavaudomila.com/scan-surprise-picoctf-writeup/)
+→ [picoCTF「Scan Surprise」writeup 日本語解説（note・¥200）](https://note.com/rudy_candy/n/n30bfc712d72d)
 → [zbarimg in CTF（ツール詳細・4つの失敗モード）](https://alsavaudomila.com/zbarimg-in-ctf-qr-barcode-decoding-techniques-and-common-challenge-patterns/)

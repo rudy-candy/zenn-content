@@ -35,6 +35,6 @@ ddで切り出したパーティションイメージ、またはシングルパ
 
 ## 詳細記事
 
-オフセット計算・ファイルシステム指定・読み取り専用マウントの手順を含む英語記事はこちら：
+手順とコマンド出力を全部書いた日本語の完全版は、noteに置いています（有料）。
 
-→ [mount in CTF](https://alsavaudomila.com/mount-in-ctf-disk-image-mounting-and-common-challenge-patterns/)
+→ [ディスクイメージ解析入門｜mountが失敗する理由と正しい初動の判断（note・¥500）](https://note.com/rudy_candy/n/n74fff073b1ab)
