@@ -6,6 +6,10 @@ topics: ["ctf", "forensics", "ffmpeg", "linux", "security"]
 published: true
 ---
 
+:::message
+2026年10月追記：picoCTF は CyLab Security Academy（learn.cylabacademy.org）に名前が変わり、フラグの形式も `picoCTF{...}` から `academy{...}` に変わりました。この記事のフラグとコマンドは当時のものです。今の配布ファイルで解くときは、`picoCTF{` を `academy{` に読み替えてください（当時のフラグは今は通りません）。
+:::
+
 CTFで音声や動画ファイルが渡されたとき、Audacityで開けない・codecエラーが出るという状況によく遭遇します。そのときffmpegが最初の解決策になります。
 
 ## ffmpegがCTFで必要になる場面

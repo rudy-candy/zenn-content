@@ -6,6 +6,10 @@ topics: ["ctf", "forensics", "linux", "disk", "security"]
 published: true
 ---
 
+:::message
+2026年10月追記：picoCTF は CyLab Security Academy（learn.cylabacademy.org）に名前が変わり、フラグの形式も `picoCTF{...}` から `academy{...}` に変わりました。この記事のフラグとコマンドは当時のものです。今の配布ファイルで解くときは、`picoCTF{` を `academy{` に読み替えてください（当時のフラグは今は通りません）。
+:::
+
 ディスクイメージの問題で最初にやることは、`mount` ではなく `fdisk` です。この順番を間違えると、マウントが失敗するか、別のパーティションを見てしまいます。
 
 ## fdiskが必要な理由

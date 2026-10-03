@@ -6,6 +6,10 @@ topics: ["ctf", "forensics", "linux", "disk", "security"]
 published: true
 ---
 
+:::message
+2026年10月追記：picoCTF は CyLab Security Academy（learn.cylabacademy.org）に名前が変わり、フラグの形式も `picoCTF{...}` から `academy{...}` に変わりました。この記事のフラグとコマンドは当時のものです。今の配布ファイルで解くときは、`picoCTF{` を `academy{` に読み替えてください（当時のフラグは今は通りません）。
+:::
+
 `dd` はバイト単位でデータをコピーするコマンドです。ディスクイメージから特定のパーティションだけを切り出したり、別のツールで解析しやすい形に変換したりするときに使います。
 
 ## CTFでddが必要になる場面

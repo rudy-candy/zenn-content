@@ -6,6 +6,10 @@ topics: ["ctf", "picoctf", "forensics", "steganography", "security"]
 published: true
 ---
 
+:::message
+2026年10月追記：picoCTF は CyLab Security Academy（learn.cylabacademy.org）に名前が変わり、フラグの形式も `picoCTF{...}` から `academy{...}` に変わりました。この記事のフラグとコマンドは当時のものです。今の配布ファイルで解くときは、`picoCTF{` を `academy{` に読み替えてください（当時のフラグは今は通りません）。
+:::
+
 「画像に何か隠されている」と分かっていても、どこを見ればいいか分からないことがある。picoCTF Hidden in Plainsightはそのギャップを突く問題だった。
 
 ## 最初の15分間でやった無駄なこと

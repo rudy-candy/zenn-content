@@ -6,6 +6,10 @@ topics: ["ctf", "forensics", "audacity", "steganography", "security"]
 published: true
 ---
 
+:::message
+2026年10月追記：picoCTF は CyLab Security Academy（learn.cylabacademy.org）に名前が変わり、フラグの形式も `picoCTF{...}` から `academy{...}` に変わりました。この記事のフラグとコマンドは当時のものです。今の配布ファイルで解くときは、`picoCTF{` を `academy{` に読み替えてください（当時のフラグは今は通りません）。
+:::
+
 CTFの音声Forensicsで最初にやることは決まっています。Audacityを開いて、スペクトログラム表示に切り替える。これだけで問題の半分が解ける場合があります。
 
 ## なぜスペクトログラムか

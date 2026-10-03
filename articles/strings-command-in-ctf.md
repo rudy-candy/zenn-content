@@ -6,6 +6,10 @@ topics: ["ctf", "forensics", "linux", "security", "picoctf"]
 published: true
 ---
 
+:::message
+2026年10月追記：picoCTF は CyLab Security Academy（learn.cylabacademy.org）に名前が変わり、フラグの形式も `picoCTF{...}` から `academy{...}` に変わりました。この記事のフラグとコマンドは当時のものです。今の配布ファイルで解くときは、`picoCTF{` を `academy{` に読み替えてください（当時のフラグは今は通りません）。
+:::
+
 picoCTFの最初の問題で `strings` を実行したら、フラグがそのまま出てきた。「CTF余裕じゃん」と思ったのは最初の5分だけで、次の問題では同じことをやっても何も出てこなかった。
 
 `strings` は万能ツールではない。「何が出るか」より「何が出ないか」を知っておく方が競技では役に立つ。

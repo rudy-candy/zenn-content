@@ -6,6 +6,10 @@ topics: ["ctf", "forensics", "picoctf", "security", "linux"]
 published: true
 ---
 
+:::message
+2026年10月追記：picoCTF は CyLab Security Academy（learn.cylabacademy.org）に名前が変わり、フラグの形式も `picoCTF{...}` から `academy{...}` に変わりました。この記事のフラグとコマンドは当時のものです。今の配布ファイルで解くときは、`picoCTF{` を `academy{` に読み替えてください（当時のフラグは今は通りません）。
+:::
+
 CTFのForensicsカテゴリで一番つまずくのは「どのツールを使えばいいか」という判断です。ツールはインストールしてある。でも、ファイルを渡された瞬間に何を開けばいいか分からない。
 
 20+のpicoCTFフォレンジック問題を解いて気づいたのは、「間違いのパターンが毎回同じ」だということです。この記事はその失敗から作った判断フローです。

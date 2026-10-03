@@ -6,6 +6,10 @@ topics: ["ctf", "picoctf", "forensics", "linux", "security"]
 published: true
 ---
 
+:::message
+2026年10月追記：picoCTF は CyLab Security Academy（learn.cylabacademy.org）に名前が変わり、フラグの形式も `picoCTF{...}` から `academy{...}` に変わりました。この記事のフラグとコマンドは当時のものです。今の配布ファイルで解くときは、`picoCTF{` を `academy{` に読み替えてください（当時のフラグは今は通りません）。
+:::
+
 「ファイルが開けない」「壊れている」と言われたとき、セキュリティ的な文脈では「本当に壊れているのか、それとも意図的に偽装されているのか」を疑うことから始まります。Corrupted Fileはその判断を練習する問題です。
 
 ## 問題の概要

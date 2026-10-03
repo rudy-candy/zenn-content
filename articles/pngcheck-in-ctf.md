@@ -6,6 +6,10 @@ topics: ["ctf", "forensics", "png", "linux", "security"]
 published: true
 ---
 
+:::message
+2026年10月追記：picoCTF は CyLab Security Academy（learn.cylabacademy.org）に名前が変わり、フラグの形式も `picoCTF{...}` から `academy{...}` に変わりました。この記事のフラグとコマンドは当時のものです。今の配布ファイルで解くときは、`picoCTF{` を `academy{` に読み替えてください（当時のフラグは今は通りません）。
+:::
+
 CTFでPNGファイルが渡されたとき、画像として開けない・表示が崩れるという状況は「意図的に壊してある」か「データが隠されている」サインです。pngcheckはPNGの内部構造を検証して、どのチャンクに問題があるかを特定します。
 
 ## PNGの構造とpngcheck

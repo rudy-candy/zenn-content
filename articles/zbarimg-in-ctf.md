@@ -6,6 +6,10 @@ topics: ["ctf", "forensics", "linux", "qrcode", "security"]
 published: false
 ---
 
+:::message
+2026年10月追記：picoCTF は CyLab Security Academy（learn.cylabacademy.org）に名前が変わり、フラグの形式も `picoCTF{...}` から `academy{...}` に変わりました。この記事のフラグとコマンドは当時のものです。今の配布ファイルで解くときは、`picoCTF{` を `academy{` に読み替えてください（当時のフラグは今は通りません）。
+:::
+
 zbarimgはターミナルからQRコード・バーコードを画像ファイルから読み取るコマンドです。CTFのForensicsやGeneral Skillsで頻出のツールですが、「0 barcodes detected」と返ってくることも多く、そこからの対処法を知っておくことが重要です。
 
 ## pyzbarとの違いを知っておく

@@ -6,6 +6,10 @@ topics: ["ctf", "picoctf", "forensics", "steganography", "security"]
 published: true
 ---
 
+:::message
+2026年10月追記：picoCTF は CyLab Security Academy（learn.cylabacademy.org）に名前が変わり、フラグの形式も `picoCTF{...}` から `academy{...}` に変わりました。この記事のフラグとコマンドは当時のものです。今の配布ファイルで解くときは、`picoCTF{` を `academy{` に読み替えてください（当時のフラグは今は通りません）。
+:::
+
 真っ赤な128×128のPNG画像。目で見ても何も分からない。でも答えはちゃんと「そこ」に書いてあった。
 
 ## やった失敗

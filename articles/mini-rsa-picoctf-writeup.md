@@ -6,6 +6,10 @@ topics: ["ctf", "picoctf", "crypto", "rsa", "security"]
 published: true
 ---
 
+:::message
+2026年10月追記：picoCTF は CyLab Security Academy（learn.cylabacademy.org）に名前が変わり、フラグの形式も `picoCTF{...}` から `academy{...}` に変わりました。この記事のフラグとコマンドは当時のものです。今の配布ファイルで解くときは、`picoCTF{` を `academy{` に読み替えてください（当時のフラグは今は通りません）。
+:::
+
 Mini RSAは「RSA小指数攻撃」という手法を題材にしています。解法自体はシンプルですが、なぜ一見正しそうなコードが失敗するのかを理解すると、暗号実装の落とし穴が見えてきます。
 
 ## 問題の概要

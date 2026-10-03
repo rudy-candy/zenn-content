@@ -6,6 +6,10 @@ topics: ["ctf", "forensics", "audio", "linux", "security"]
 published: true
 ---
 
+:::message
+2026年10月追記：picoCTF は CyLab Security Academy（learn.cylabacademy.org）に名前が変わり、フラグの形式も `picoCTF{...}` から `academy{...}` に変わりました。この記事のフラグとコマンドは当時のものです。今の配布ファイルで解くときは、`picoCTF{` を `academy{` に読み替えてください（当時のフラグは今は通りません）。
+:::
+
 SoXはコマンドラインで音声ファイルを解析・変換・加工できるツールです。Audacityが「見る」ツールならSoXは「測る」ツールです。
 
 ## `sox -n stat` のRough frequencyが教えてくれること

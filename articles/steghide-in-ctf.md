@@ -6,6 +6,10 @@ topics: ["ctf", "picoctf", "forensics", "steganography", "security"]
 published: true
 ---
 
+:::message
+2026年10月追記：picoCTF は CyLab Security Academy（learn.cylabacademy.org）に名前が変わり、フラグの形式も `picoCTF{...}` から `academy{...}` に変わりました。この記事のフラグとコマンドは当時のものです。今の配布ファイルで解くときは、`picoCTF{` を `academy{` に読み替えてください（当時のフラグは今は通りません）。
+:::
+
 steghideには知らないと絶対にハマる罠がある。「パスフレーズが分からない」と詰まっているとき、答えはすでに手元にあることがある。picoCTF の Hidden in Plainsight でそれを学んだ。
 
 ## 同じエラーが2つの意味を持つ

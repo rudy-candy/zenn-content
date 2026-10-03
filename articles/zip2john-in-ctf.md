@@ -6,6 +6,10 @@ topics: ["ctf", "forensics", "zip", "linux", "security"]
 published: false
 ---
 
+:::message
+2026年10月追記：picoCTF は CyLab Security Academy（learn.cylabacademy.org）に名前が変わり、フラグの形式も `picoCTF{...}` から `academy{...}` に変わりました。この記事のフラグとコマンドは当時のものです。今の配布ファイルで解くときは、`picoCTF{` を `academy{` に読み替えてください（当時のフラグは今は通りません）。
+:::
+
 パスワード付きZIPが渡されたとき、すぐにパスワードクラックを試みる前に確認すべきことがあります。暗号化方式によって、クラックできるかどうかが決まります。
 
 ## ZipCryptoとAES-256の違い
