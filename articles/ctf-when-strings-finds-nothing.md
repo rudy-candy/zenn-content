@@ -3,7 +3,7 @@ title: "CTFでstringsが空振りしたら次に見る5つの場所"
 emoji: "🔎"
 type: "tech"
 topics: ["ctf", "picoctf", "cylabacademy", "forensics"]
-published: true
+published: false
 ---
 
 :::message
