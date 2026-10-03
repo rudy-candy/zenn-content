@@ -72,3 +72,4 @@ published: true
 ---
 
 診断やキャリアまわりの細かい話は、X（[@rudy_candy_](https://x.com/rudy_candy_)）でも書いています。よかったらどうぞ。
+

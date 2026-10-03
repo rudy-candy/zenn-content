@@ -72,3 +72,4 @@ Secret of the Polyglot は、1つのファイルが PNG でもあり PDF でも�
 ---
 
 診断やキャリアまわりの細かい話は、X（[@rudy_candy_](https://x.com/rudy_candy_)）でも書いています。よかったらどうぞ。
+

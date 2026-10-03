@@ -34,7 +34,7 @@ Enter passphrase: pAzzword
 wrote extracted data to "flag.txt".
 ```
 
-フラグ: `picoCTF{h1dd3n_1m4g3_67479645}`
+フラグ: `picoCTF{h1dd3n_1n_1m4g3_67479645}`
 
 ## この問題から得た教訓
 
