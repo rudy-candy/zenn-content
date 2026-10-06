@@ -3,7 +3,7 @@ title: "Self-XSSを報告書に載せるか、先輩に相談した話"
 emoji: "🤔"
 type: "idea"
 topics: ["security", "脆弱性診断", "xss", "報告書", "セキュリティエンジニア"]
-published: false
+published: true
 ---
 
 脆弱性診断で、判断に迷った指摘はいくつもある。中でも最初に本気で迷ったのが、Self-XSSだった。
