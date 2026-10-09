@@ -3,7 +3,7 @@ title: "CTFでフラグ候補が大量に出たとき本物を選ぶ考え方"
 emoji: "🚩"
 type: "tech"
 topics: ["ctf", "picoctf", "cylabacademy", "forensics"]
-published: false
+published: true
 ---
 
 :::message
