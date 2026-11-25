@@ -3,7 +3,7 @@ title: "CTFでCookieを書き換える前に確かめる4つのこと"
 emoji: "🍪"
 type: "tech"
 topics: ["ctf", "picoctf", "cylabacademy", "web", "security"]
-published: false
+published: true
 ---
 
 :::message
